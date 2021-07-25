@@ -10,7 +10,7 @@ describe("basic", () => {
   // Instantiate emulator and path to Cadence files
   beforeEach(async () => {
     const basePath = path.resolve(__dirname, "../../../");
-    const port = 8080;
+    const port = 8081;
     init(basePath, port);
     await emulator.start(port, false);
   });
